@@ -18,6 +18,8 @@ class TestGetimage(unittest.TestCase):
     def tearDown(self):
         self.session.close()
     # 执行传入参数为随机小数
+
+
     def test01_get_img_code_random_float(self):
         # 定义需要传入的随机小数
         r = random.random()
